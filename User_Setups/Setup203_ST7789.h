@@ -20,6 +20,14 @@
 //#define TFT_MOSI  26
 //#define TFT_SCLK  27
 
+#define TFT_MISO 12
+#define TFT_MOSI 11
+#define TFT_SCLK 10
+#define TFT_CS    9  // Chip select control pin
+#define TFT_DC    8  // Data Command control pin
+#define TFT_RST   14  // Reset pin (could connect to RST pin)
+#define TFT_BL 2
+
 // Generic ESP32 setup
 //#define TFT_MISO 19
 //#define TFT_MOSI 23
@@ -29,10 +37,10 @@
 //#define TFT_RST   4  // Connect reset to ensure display initialises
 
 // For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation
-#define TFT_CS   -1      // Define as not used
-#define TFT_DC   PIN_D1  // Data Command control pin
+//#define TFT_CS   -1      // Define as not used
+//#define TFT_DC   PIN_D1  // Data Command control pin
 //#define TFT_RST  PIN_D4  // TFT reset pin (could connect to NodeMCU RST, see next line)
-#define TFT_RST  -1      // TFT reset pin connect to NodeMCU RST, must also then add 10K pull down to TFT SCK
+//#define TFT_RST  -1      // TFT reset pin connect to NodeMCU RST, must also then add 10K pull down to TFT SCK
 
 
 #define LOAD_GLCD   // Font 1. Original Adafruit 8 pixel font needs ~1820 bytes in FLASH

@@ -124,7 +124,7 @@
 
 //#include <User_Setups/Setup202_SSD1351_128.h>      // Setup file for ESP32/ESP8266 based SSD1351 128x128 1.5inch OLED display
 
-//#include <User_Setups/Setup203_ST7789.h>     // Setup file for ESP32/ESP8266 based ST7789 240X280 1.69inch TFT 
+#include <User_Setups/Setup203_ST7789.h>     // Setup file for ESP32/ESP8266 based ST7789 240X280 1.69inch TFT 
 
 //#include <User_Setups/Setup204_ESP32_TouchDown.h>     // Setup file for the ESP32 TouchDown based on ILI9488 480 x 320 TFT 
 
@@ -142,7 +142,7 @@
 //#include <User_Setups/Setup251_ESP32_S3_Box.h>            // For the ESP32 S3 Box
 
 //#include <User_Setups/Setup301_BW16_ST7735.h>            // Setup file for Bw16-based boards with ST7735 160 x 80 TFT
-#include <User_Setups/Setup302_Waveshare_ESP32S3_GC9A01.h>            // Setup file for Waveshare ESP32-S3-Touch-LCD-1.28 board with GC9A01 240*240 TFT
+//#include <User_Setups/Setup302_Waveshare_ESP32S3_GC9A01.h>            // Setup file for Waveshare ESP32-S3-Touch-LCD-1.28 board with GC9A01 240*240 TFT
 
 //#include <User_Setups/SetupX_Template.h>     // Template file for a setup
 
